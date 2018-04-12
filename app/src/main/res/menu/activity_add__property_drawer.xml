@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/addproperty"
+            android:icon="@drawable/propertiesicon"
+            android:title="Add Properties" />
+
+        <item
+            android:id="@+id/deleteproperty"
+            android:icon="@drawable/deletepropertyicon"
+            android:title="Delete Properties" />
+
+        <item
+            android:id="@+id/addimage"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Add Photos"/>
+        <item
+            android:id="@+id/deletephotos"
+            android:icon="@drawable/deleteimageicon"
+            android:title="Delete Photos" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
